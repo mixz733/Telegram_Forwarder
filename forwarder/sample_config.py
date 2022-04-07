@@ -23,7 +23,7 @@ class Config(object):
     TO_CHATS = [-1001524566653]  # List of chat id's to forward messages to
 
     # FOR WEBHOOKS
-    WEBHOOK = ANYTHING
+    WEBHOOK = False
     IP_ADDRESS = "0.0.0.0"  # Use "0.0.0.0" if using Heroku
     URL = None  # The URL that the bot should listen to for updates
     PORT = 5000  # Port to listen on for webhooks
